@@ -14,3 +14,12 @@ Storm users define topologies for how to process the data when it comes streamin
 ---------------
 
 This project implement WordCountTopology which include WordSpitterBolt and WordCounterBolt.
+Use Storm Maven dependency:
+```xml
+    <dependency>
+        <groupId>org.apache.storm</groupId>
+        <artifactId>storm-core</artifactId>
+        <version>0.9.5</version>
+    </dependency>
+```
+        
